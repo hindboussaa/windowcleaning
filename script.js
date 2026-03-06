@@ -1,13 +1,13 @@
-function scrollContact() {
-
+function scrollContact(){
 document.getElementById("contact").scrollIntoView({
-behavior: "smooth"
+behavior:"smooth"
 });
-
 }
 
-function callBusiness(){
+document.getElementById("contactForm").addEventListener("submit", function(e){
 
-window.location.href = "tel:01234567890";
+e.preventDefault();
 
-}
+alert("Thank you! Your quote request has been sent.");
+
+});
