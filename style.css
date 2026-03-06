@@ -1,20 +1,26 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Body */
 body {
   font-family: 'Poppins', sans-serif;
   background: #f9fafe;
   color: #333;
-  margin: 0;
   line-height: 1.6;
 }
 
-/* Hero */
+/* HERO SECTION */
 .hero {
   position: relative;
   height: 60vh;
   overflow: hidden;
 }
 
-.hero img {
+.hero-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -26,13 +32,18 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
   text-align: center;
 }
 
 .hero-text h1 {
   font-size: 3rem;
-  margin: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .btn-primary {
@@ -49,11 +60,17 @@ body {
   background: #005fd1;
 }
 
-/* Reviews */
+/* REVIEWS SECTION */
 .reviews {
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px;
   background: #fff;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #111;
 }
 
 .review-list {
@@ -66,18 +83,26 @@ body {
 .review {
   background: #0077ff;
   color: white;
-  padding: 15px;
+  padding: 20px;
   border-radius: 8px;
   width: 250px;
+  font-size: 0.95rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Sections */
+/* SECTIONS */
 .section {
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
-/* Services */
+.section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+/* SERVICES */
 .service-grid {
   display: flex;
   gap: 30px;
@@ -106,24 +131,35 @@ body {
   object-fit: cover;
 }
 
-/* Areas */
+.service-card h3 {
+  color: #0077ff;
+  margin: 15px 0 10px;
+}
+
+.service-card p {
+  padding: 0 10px 20px;
+  font-size: 0.95rem;
+}
+
+/* AREAS */
 .areas {
   list-style: none;
   padding: 0;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .areas li {
   padding: 6px 0;
 }
 
-/* Contact */
+/* CONTACT FORM */
 form {
-  max-width: 400px;
+  max-width: 450px;
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
 }
 
 input, textarea {
@@ -138,16 +174,23 @@ textarea {
   resize: vertical;
 }
 
-/* Footer */
+button.btn-primary {
+  width: fit-content;
+  margin: auto;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+/* FOOTER */
 footer {
   background: #111;
   color: #fff;
-  padding: 20px;
   text-align: center;
+  padding: 25px;
   font-size: 14px;
 }
 
-/* Mobile Responsive */
+/* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 2rem;
