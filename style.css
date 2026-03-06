@@ -7,7 +7,7 @@ box-sizing:border-box;
 body{
 font-family:'Poppins',sans-serif;
 background:#f5f8ff;
-color:#4c4e50;
+color:#2591d8;
 line-height:1.6;
 }
 
@@ -69,12 +69,12 @@ justify-content:center;
 text-align:center;
 
 background:
-linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+linear-gradient(rgba(13, 95, 187, 0.55),rgba(11, 82, 153, 0.55)),
 url("images/b.jpg");
 
 background-size:cover;
 background-position:center;
-color:white;
+color:rgb(74, 87, 212);
 }
 
 .hero h1{
