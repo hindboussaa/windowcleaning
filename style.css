@@ -265,12 +265,34 @@ min-height:120px;
 
 /* FOOTER */
 
+
+
+
+
+
 footer{
+text-align:center;
+padding:30px;
 background:#111;
 color:white;
-text-align:center;
-padding:25px;
 }
+
+.social-icons{
+margin-bottom:15px;
+}
+
+.social-icons a{
+color:white;
+font-size:22px;
+margin:0 10px;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#00aaff;
+}
+
+
 
 
 /* CALL BUTTON */
