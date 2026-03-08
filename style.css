@@ -297,9 +297,11 @@ color:#0077ff;
 
 
 /* CTA */
-
 .cta{
-color: white;
+background:white;
+color:blue;
+text-align:center;
+padding:20px 20px;
 }
 
 .cta h2{
