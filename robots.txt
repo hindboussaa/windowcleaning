@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hindboussaa.github.io/window-leaning/sitemap.xml
