@@ -272,27 +272,27 @@ min-height:120px;
 
 footer{
 text-align:center;
-padding:30px;
-background:#189e95;
-color:rgb(121, 33, 33);
+padding:40px 20px;
+background:#0f2f66;
+color:white;
 }
 
-.social-icons{
+..social-icons{
 margin-bottom:15px;
 }
 
 .social-icons a{
 color:white;
 font-size:22px;
-margin:0 10px;
+margin:0 12px;
+display:inline-block;
 transition:0.3s;
 }
 
 .social-icons a:hover{
 color:#00aaff;
+transform:translateY(-4px);
 }
-
-
 
 
 /* CALL BUTTON */
