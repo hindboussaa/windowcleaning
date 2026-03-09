@@ -1,4 +1,6 @@
-/* RESET */
+/* =====================
+   GLOBAL RESET
+===================== */
 
 *{
 margin:0;
@@ -12,24 +14,36 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Poppins',sans-serif;
-background:white;
+background:#ffffff;
 color:#222;
 line-height:1.6;
 }
 
 img{
-max-width:60%;
+max-width:100%;
 display:block;
+border-radius:10px;
 }
 
+/* =====================
+   CONTAINER
+===================== */
 
-/* HEADER */
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 20px;
+}
+
+/* =====================
+   HEADER
+===================== */
 
 .header{
 position:sticky;
 top:0;
 background:rgba(255,255,255,0.95);
-backdrop-filter:blur(10px);
+backdrop-filter:blur(8px);
 z-index:1000;
 box-shadow:0 2px 10px rgba(0,0,0,0.05);
 }
@@ -38,14 +52,14 @@ box-shadow:0 2px 10px rgba(0,0,0,0.05);
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 60px;
 max-width:1200px;
 margin:auto;
+padding:18px 30px;
 }
 
 .logo{
-font-weight:700;
 font-size:22px;
+font-weight:700;
 color:#0f2f66;
 }
 
@@ -69,7 +83,7 @@ color:#0077ff;
 .nav-btn{
 background:#0077ff;
 color:white;
-padding:10px 20px;
+padding:10px 22px;
 border-radius:8px;
 text-decoration:none;
 font-weight:500;
@@ -80,8 +94,9 @@ transition:0.3s;
 background:#005ed6;
 }
 
-
-/* HERO */
+/* =====================
+   HERO SECTION
+===================== */
 
 .hero{
 height:90vh;
@@ -96,17 +111,16 @@ url("images/b.jpg");
 
 background-size:cover;
 background-position:center;
-
 color:white;
 }
 
 .hero-content{
-max-width:700px;
+max-width:720px;
 padding:20px;
 }
 
 .hero h1{
-font-size:56px;
+font-size:52px;
 font-weight:700;
 margin-bottom:15px;
 }
@@ -124,8 +138,9 @@ justify-content:center;
 flex-wrap:wrap;
 }
 
-
-/* BUTTONS */
+/* =====================
+   BUTTONS
+===================== */
 
 .btn-primary{
 background:linear-gradient(135deg,#0077ff,#00aaff);
@@ -141,55 +156,43 @@ transition:0.3s;
 }
 
 .btn-primary:hover{
-transform:translateY(-4px);
+transform:translateY(-3px);
 box-shadow:0 15px 35px rgba(0,119,255,0.4);
 }
 
-.btn-secondary{
-background:white;
-color:#0077ff;
-padding:14px 30px;
-border-radius:10px;
-text-decoration:none;
-font-weight:500;
-transition:0.3s;
-}
-
-.btn-secondary:hover{
-background:#f1f1f1;
-}
-
-
-/* TRUST BAR */
+/* =====================
+   TRUST BAR
+===================== */
 
 .trust{
 display:flex;
 justify-content:center;
 gap:60px;
-background:white;
+background:#ffffff;
 padding:30px;
 font-weight:500;
 box-shadow:0 5px 20px rgba(0,0,0,0.05);
 font-size:16px;
 }
 
-
-/* SECTIONS */
+/* =====================
+   SECTIONS
+===================== */
 
 .section{
-padding:110px 20px;
+padding:100px 20px;
 max-width:1200px;
 margin:auto;
 text-align:center;
 }
 
 .light{
-background:white;
+background:#f7f9fc;
 }
 
 .section h2{
 font-size:36px;
-margin-bottom:20px;
+margin-bottom:25px;
 font-weight:600;
 position:relative;
 display:inline-block;
@@ -205,8 +208,9 @@ margin:10px auto 0;
 border-radius:4px;
 }
 
-
-/* SERVICES */
+/* =====================
+   SERVICES
+===================== */
 
 .services-grid{
 display:flex;
@@ -221,15 +225,13 @@ width:300px;
 background:white;
 border-radius:16px;
 overflow:hidden;
-
-box-shadow:0 15px 35px rgba(0,0,0,0.08);
-
+box-shadow:0 12px 30px rgba(0,0,0,0.08);
 transition:0.35s;
 }
 
 .service-card:hover{
-transform:translateY(-12px) scale(1.02);
-box-shadow:0 25px 60px rgba(0,0,0,0.15);
+transform:translateY(-10px);
+box-shadow:0 20px 45px rgba(0,0,0,0.15);
 }
 
 .service-card img{
@@ -248,8 +250,9 @@ padding:0 20px 25px;
 color:#555;
 }
 
-
-/* RESULTS */
+/* =====================
+   RESULTS
+===================== */
 
 .results-grid{
 display:flex;
@@ -265,8 +268,9 @@ border-radius:14px;
 box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
-
-/* REVIEWS */
+/* =====================
+   REVIEWS
+===================== */
 
 .reviews{
 display:flex;
@@ -295,23 +299,26 @@ margin-top:10px;
 color:#0077ff;
 }
 
+/* =====================
+   CTA
+===================== */
 
-/* CTA */
 .cta{
-background:white;
+background:#f7f9fc;
 text-align:center;
-padding:20px;
+padding:70px 20px;
 }
 
 .cta h2{
-margin-bottom:20px;
+margin-bottom:25px;
 font-size:32px;
 }
 
+/* =====================
+   CONTACT
+===================== */
 
-/* CONTACT */
-
-form{
+.contact-form{
 max-width:420px;
 margin:auto;
 display:flex;
@@ -337,8 +344,9 @@ outline:none;
 border-color:#0077ff;
 }
 
-
-/* FOOTER */
+/* =====================
+   FOOTER
+===================== */
 
 footer{
 text-align:center;
@@ -361,11 +369,12 @@ transition:0.3s;
 
 .social-icons a:hover{
 color:#00aaff;
-transform:translateY(-4px) scale(1.1);
+transform:translateY(-4px);
 }
 
-
-/* CALL BUTTON */
+/* =====================
+   CALL BUTTON
+===================== */
 
 .call-btn{
 position:fixed;
@@ -385,8 +394,9 @@ transition:0.3s;
 background:#005ed6;
 }
 
-
-/* MOBILE */
+/* =====================
+   MOBILE
+===================== */
 
 @media(max-width:768px){
 
