@@ -299,7 +299,7 @@ color:#0077ff;
 ===================== */
 .cta {
    background:#f3f4f5;   /* CTA background color */
-    color: white;              /* text color */
+    color: rgb(17, 17, 17);              /* text color */
     text-align: center;        /* center text */
     padding: 80px 20px;        /* top/bottom and sides padding */
     max-width: 1200px;         /* reasonable max width */
