@@ -167,7 +167,7 @@ display:flex;
 justify-content:center;
 gap:60px;
 background:#f3f4f5;
-color:white;
+color:rgb(13, 13, 13);
 padding:30px;
 font-weight:500;
 box-shadow:0 5px 20px rgba(0,0,0,0.05);
