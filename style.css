@@ -299,6 +299,8 @@ color:#0077ff;
 ===================== */
 .cta{
 background:#f1f4f9;
+max-width:420px;
+
 text-align:center;
 padding:70px 20px;
 }
