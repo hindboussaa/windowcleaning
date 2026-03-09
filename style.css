@@ -18,7 +18,7 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Poppins',sans-serif;
-background:#6f9aa0;
+background:#146aec;
 color:#141315;
 line-height:1.6;
 }
@@ -166,7 +166,7 @@ box-shadow:0 15px 35px rgba(0,119,255,0.4);
 display:flex;
 justify-content:center;
 gap:60px;
-background:#538737;
+background:#f3f4f5;
 color:white;
 padding:30px;
 font-weight:500;
@@ -185,7 +185,7 @@ text-align:center;
 }
 
 .light{
-background:#08bdd9;
+background:#f3f4f5;
 }
 
 .section h2{
@@ -200,7 +200,7 @@ display:inline-block;
 content:"";
 width:60px;
 height:4px;
-background:#0077ff;
+background:#f3f4f5;
 display:block;
 margin:10px auto 0;
 border-radius:4px;
@@ -298,7 +298,7 @@ color:#0077ff;
    CTA
 ===================== */
 .cta {
-    background:#08bdd9;     /* CTA background color */
+   background:#f3f4f5;   /* CTA background color */
     color: white;              /* text color */
     text-align: center;        /* center text */
     padding: 80px 20px;        /* top/bottom and sides padding */
