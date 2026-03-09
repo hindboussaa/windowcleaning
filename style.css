@@ -19,12 +19,12 @@ scroll-behavior:smooth;
 body{
 font-family:'Poppins',sans-serif;
 background:#d4f057;
-color:#7218b7;
+color:#141315;
 line-height:1.6;
 }
 
 img{
-max-width:70%;
+max-width:50%;
 display:block;
 border-radius:10px;
 }
