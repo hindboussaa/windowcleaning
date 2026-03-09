@@ -1,7 +1,11 @@
 /* =====================
+   GOOGLE FONT
+===================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* =====================
    GLOBAL RESET
 ===================== */
-
 *{
 margin:0;
 padding:0;
@@ -28,7 +32,6 @@ border-radius:10px;
 /* =====================
    CONTAINER
 ===================== */
-
 .container{
 max-width:1200px;
 margin:auto;
@@ -38,7 +41,6 @@ padding:0 20px;
 /* =====================
    HEADER
 ===================== */
-
 .header{
 position:sticky;
 top:0;
@@ -97,7 +99,6 @@ background:#005ed6;
 /* =====================
    HERO SECTION
 ===================== */
-
 .hero{
 height:90vh;
 display:flex;
@@ -141,7 +142,6 @@ flex-wrap:wrap;
 /* =====================
    BUTTONS
 ===================== */
-
 .btn-primary{
 background:linear-gradient(135deg,#0077ff,#00aaff);
 color:white;
@@ -150,7 +150,6 @@ border-radius:10px;
 text-decoration:none;
 border:none;
 font-weight:600;
-
 box-shadow:0 10px 25px rgba(0,119,255,0.3);
 transition:0.3s;
 }
@@ -163,12 +162,12 @@ box-shadow:0 15px 35px rgba(0,119,255,0.4);
 /* =====================
    TRUST BAR
 ===================== */
-
 .trust{
 display:flex;
 justify-content:center;
 gap:60px;
-background:#538737;;
+background:#538737;
+color:white;
 padding:30px;
 font-weight:500;
 box-shadow:0 5px 20px rgba(0,0,0,0.05);
@@ -178,7 +177,6 @@ font-size:16px;
 /* =====================
    SECTIONS
 ===================== */
-
 .section{
 padding:100px 20px;
 max-width:1200px;
@@ -187,7 +185,7 @@ text-align:center;
 }
 
 .light{
-background:#538737;
+background:#f7f7f7;
 }
 
 .section h2{
@@ -211,7 +209,6 @@ border-radius:4px;
 /* =====================
    SERVICES
 ===================== */
-
 .services-grid{
 display:flex;
 gap:30px;
@@ -222,7 +219,7 @@ margin-top:50px;
 
 .service-card{
 width:300px;
-background:#538737;
+background:white;
 border-radius:16px;
 overflow:hidden;
 box-shadow:0 12px 30px rgba(0,0,0,0.08);
@@ -247,13 +244,12 @@ font-size:22px;
 
 .service-card p{
 padding:0 20px 25px;
-color:#0a0808;
+color:#555;
 }
 
 /* =====================
    RESULTS
 ===================== */
-
 .results-grid{
 display:flex;
 gap:30px;
@@ -271,7 +267,6 @@ box-shadow:0 10px 30px rgba(0,0,0,0.15);
 /* =====================
    REVIEWS
 ===================== */
-
 .reviews{
 display:flex;
 gap:25px;
@@ -302,11 +297,10 @@ color:#0077ff;
 /* =====================
    CTA
 ===================== */
-
 .cta{
-background:#e4e0e3;
+background:#f1f4f9;
 text-align:center;
-padding:10px 20px;
+padding:70px 20px;
 }
 
 .cta h2{
@@ -315,11 +309,10 @@ font-size:32px;
 }
 
 /* =====================
-   CONTACT
+   CONTACT FORM
 ===================== */
-
 .contact-form{
-max-width:20px;
+max-width:420px;
 margin:auto;
 display:flex;
 flex-direction:column;
@@ -347,7 +340,6 @@ border-color:#0077ff;
 /* =====================
    FOOTER
 ===================== */
-
 footer{
 text-align:center;
 padding:50px 20px;
@@ -375,7 +367,6 @@ transform:translateY(-4px);
 /* =====================
    CALL BUTTON
 ===================== */
-
 .call-btn{
 position:fixed;
 bottom:20px;
@@ -395,9 +386,8 @@ background:#005ed6;
 }
 
 /* =====================
-   MOBILE
+   MOBILE RESPONSIVE
 ===================== */
-
 @media(max-width:768px){
 
 .navbar{
