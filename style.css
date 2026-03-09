@@ -19,7 +19,7 @@ scroll-behavior:smooth;
 body{
 font-family:'Poppins',sans-serif;
 background:#d4f057;
-color:#222;
+color:#7218b7;
 line-height:1.6;
 }
 
@@ -33,7 +33,7 @@ border-radius:10px;
    CONTAINER
 ===================== */
 .container{
-max-width:1200px;
+max-width:200px;
 margin:auto;
 padding:0 20px;
 }
