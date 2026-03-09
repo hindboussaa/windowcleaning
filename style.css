@@ -297,16 +297,22 @@ color:#0077ff;
 /* =====================
    CTA
 ===================== */
-.cta{
-background:#197d8b;
-max-width:420px;
-text-align:center;
+.cta {
+    background: #197d8b;       /* CTA background color */
+    color: white;              /* text color */
+    text-align: center;        /* center text */
+    padding: 80px 20px;        /* top/bottom and sides padding */
+    max-width: 1200px;         /* reasonable max width */
+    margin: 0 auto;            /* center on large screens */
+    border-radius: 12px;       /* optional rounded corners */
 }
 
-
-.cta h2{
-margin-bottom:25px;
-font-size:32px;
+.cta h2 {
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #ffffff;           /* ensure text is readable */
 }
 
 /* =====================
