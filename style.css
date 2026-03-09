@@ -107,7 +107,7 @@ text-align:center;
 
 background:
 linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
-url("images/b.jpg");
+url("images/b1.webp");
 
 background-size:cover;
 background-position:center;
@@ -168,7 +168,7 @@ box-shadow:0 15px 35px rgba(0,119,255,0.4);
 display:flex;
 justify-content:center;
 gap:60px;
-background:#ffffff;
+background:#538737;;
 padding:30px;
 font-weight:500;
 box-shadow:0 5px 20px rgba(0,0,0,0.05);
@@ -187,7 +187,7 @@ text-align:center;
 }
 
 .light{
-background:#f7f9fc;
+background:#538737;
 }
 
 .section h2{
@@ -222,7 +222,7 @@ margin-top:50px;
 
 .service-card{
 width:300px;
-background:white;
+background:#538737;
 border-radius:16px;
 overflow:hidden;
 box-shadow:0 12px 30px rgba(0,0,0,0.08);
