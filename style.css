@@ -18,13 +18,13 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Poppins',sans-serif;
-background:#5cbae0;
+background:#d4f057;
 color:#222;
 line-height:1.6;
 }
 
 img{
-max-width:100%;
+max-width:70%;
 display:block;
 border-radius:10px;
 }
