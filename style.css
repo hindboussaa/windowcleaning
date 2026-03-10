@@ -351,7 +351,6 @@ color:#0077ff;
 
 
 /* Gallery Section */
-/* Slider Container */
 .slider {
   width: 100%;
   max-width: 1000px;
@@ -364,30 +363,21 @@ color:#0077ff;
 /* Slides Wrapper */
 .slides {
   display: flex;
-  width: 500%; /* number of images x 100% */
-  animation: slide 20s infinite;
+  width: 500%; /* number of images × 100% */
+  animation: slide 10s linear infinite; /* 10s total for all slides, adjust for speed */
 }
 
 /* Individual Slides */
 .slides img {
-  width: 20%; /* 100% ÷ number of images */
+  width: 20%; /* 100 ÷ number of images */
   object-fit: cover;
-  transition: transform 0.5s;
 }
 
-/* Slide Animation */
+/* Keyframes for Left → Right sliding */
 @keyframes slide {
-  0% { transform: translateX(0%); }
-  20% { transform: translateX(0%); }
-  25% { transform: translateX(-20%); }
-  45% { transform: translateX(-20%); }
-  50% { transform: translateX(-40%); }
-  70% { transform: translateX(-40%); }
-  75% { transform: translateX(-60%); }
-  95% { transform: translateX(-60%); }
+  0% { transform: translateX(-100%); }
   100% { transform: translateX(0%); }
 }
-
 /* =====================
    CTA
 ===================== */
