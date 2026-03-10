@@ -260,6 +260,61 @@ border-radius:14px;
 box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
+
+/* =====================
+   AREAS WE COVER
+===================== */
+
+.areas{
+background:#ffffff;
+padding:80px 20px;
+text-align:center;
+}
+
+.areas h2{
+font-size:34px;
+margin-bottom:15px;
+color:#0f2f66;
+}
+
+.areas p{
+margin-bottom:35px;
+font-size:18px;
+color:#555;
+}
+
+.areas-list{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+list-style:none;
+}
+
+.areas-list li{
+background:#f3f4f5;
+padding:14px 28px;
+border-radius:30px;
+font-weight:500;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.areas-list li:hover{
+background:#0077ff;
+color:white;
+transform:translateY(-3px);
+}
+
+
+
+
+
+
+
+
+
+
 /* =====================
    REVIEWS
 ===================== */
