@@ -23,3 +23,24 @@ acceptBtn.addEventListener("click", function(){
 localStorage.setItem("cookiesAccepted","true");
 cookieBanner.style.display = "none";
 });
+
+
+
+
+
+async function sendMessage() {
+    const input = document.getElementById("user_input").value;
+    const response = await fetch("/chat", {
+        method: "POST",
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({message: input})
+    });
+    const data = await response.json();
+    document.getElementById("messages").innerHTML += `<p><b>You:</b> ${input}</p><p><b>Bot:</b> ${data.reply}</p>`;
+}
+
+
+
+
+const messagesDiv = document.getElementById("messages");
+messagesDiv.scrollTop = messagesDiv.scrollHeight;
