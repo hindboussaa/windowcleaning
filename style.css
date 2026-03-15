@@ -124,7 +124,7 @@ width:250px;
 position:fixed;
 bottom:20px;
 right:20px;
-background:#0077ff;
+background:#151616;
 color:white;
 padding:16px;
 border-radius:50%;
@@ -1044,4 +1044,3 @@ footer{
 #chatbox button:hover {
     background-color: #0056b3;
 }
-</style>
