@@ -44,11 +44,3 @@ async function sendMessage() {
 
 const messagesDiv = document.getElementById("messages");
 messagesDiv.scrollTop = messagesDiv.scrollHeight;
-     
-
-
-
-
-
-
-
